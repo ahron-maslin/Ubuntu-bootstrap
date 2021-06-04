@@ -48,7 +48,7 @@ case $init_set in
 esac
 #create ros script and chmod it
 touch ~/ros.sh
-cat > ros.sh << EOF
+cat > ~/ros.sh << EOF
 #!/bin/bash
 sudo apt update -y
 sudo apt upgrade -y 
